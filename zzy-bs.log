@@ -1,0 +1,122 @@
+12.5s 1 Collecting yfinance
+12.5s 2 Obtaining dependency information for yfinance from https://files.pythonhosted.org/packages/14/03/3c854ca3e02eedf614abba4b2e177c469bf3af58207fa30d5098c5d652fe/yfinance-0.2.37-py2.py3-none-any.whl.metadata
+12.6s 3 Downloading yfinance-0.2.37-py2.py3-none-any.whl.metadata (11 kB)
+12.6s 4 Requirement already satisfied: pandas>=1.3.0 in /opt/conda/lib/python3.10/site-packages (from yfinance) (2.0.3)
+12.6s 5 Requirement already satisfied: numpy>=1.16.5 in /opt/conda/lib/python3.10/site-packages (from yfinance) (1.24.3)
+12.6s 6 Requirement already satisfied: requests>=2.31 in /opt/conda/lib/python3.10/site-packages (from yfinance) (2.31.0)
+12.6s 7 Collecting multitasking>=0.0.7 (from yfinance)
+12.6s 8 Obtaining dependency information for multitasking>=0.0.7 from https://files.pythonhosted.org/packages/3e/8a/bb3160e76e844db9e69a413f055818969c8acade64e1a9ac5ce9dfdcf6c1/multitasking-0.0.11-py3-none-any.whl.metadata
+12.6s 9 Downloading multitasking-0.0.11-py3-none-any.whl.metadata (5.5 kB)
+12.7s 10 Requirement already satisfied: lxml>=4.9.1 in /opt/conda/lib/python3.10/site-packages (from yfinance) (4.9.3)
+12.7s 11 Requirement already satisfied: appdirs>=1.4.4 in /opt/conda/lib/python3.10/site-packages (from yfinance) (1.4.4)
+12.7s 12 Requirement already satisfied: pytz>=2022.5 in /opt/conda/lib/python3.10/site-packages (from yfinance) (2023.3)
+12.7s 13 Requirement already satisfied: frozendict>=2.3.4 in /opt/conda/lib/python3.10/site-packages (from yfinance) (2.3.10)
+12.7s 14 Collecting peewee>=3.16.2 (from yfinance)
+12.7s 15 Downloading peewee-3.17.1.tar.gz (3.0 MB)
+12.8s 16 [?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/3.0 MB[0m [31m?[0m eta [36m-:--:--[0m[2K     [91m━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.0/3.0 MB[0m [31m29.7 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m2.9/3.0 MB[0m [31m55.4 MB/s[0m eta [36m0:00:01[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.0/3.0 MB[0m [31m33.7 MB/s[0m eta [36m0:00:00[0m
+29.1s 17 [?25h  Installing build dependencies ... [?25l- \ | / - done
+30.0s 18 [?25h  Getting requirements to build wheel ... [?25l- done
+30.6s 19 [?25h  Preparing metadata (pyproject.toml) ... [?25l- done
+30.6s 20 [?25hRequirement already satisfied: beautifulsoup4>=4.11.1 in /opt/conda/lib/python3.10/site-packages (from yfinance) (4.12.2)
+30.6s 21 Requirement already satisfied: html5lib>=1.1 in /opt/conda/lib/python3.10/site-packages (from yfinance) (1.1)
+30.6s 22 Requirement already satisfied: soupsieve>1.2 in /opt/conda/lib/python3.10/site-packages (from beautifulsoup4>=4.11.1->yfinance) (2.3.2.post1)
+30.6s 23 Requirement already satisfied: six>=1.9 in /opt/conda/lib/python3.10/site-packages (from html5lib>=1.1->yfinance) (1.16.0)
+30.6s 24 Requirement already satisfied: webencodings in /opt/conda/lib/python3.10/site-packages (from html5lib>=1.1->yfinance) (0.5.1)
+30.8s 25 Requirement already satisfied: python-dateutil>=2.8.2 in /opt/conda/lib/python3.10/site-packages (from pandas>=1.3.0->yfinance) (2.8.2)
+30.8s 26 Requirement already satisfied: tzdata>=2022.1 in /opt/conda/lib/python3.10/site-packages (from pandas>=1.3.0->yfinance) (2023.3)
+30.8s 27 Requirement already satisfied: charset-normalizer<4,>=2 in /opt/conda/lib/python3.10/site-packages (from requests>=2.31->yfinance) (3.2.0)
+30.8s 28 Requirement already satisfied: idna<4,>=2.5 in /opt/conda/lib/python3.10/site-packages (from requests>=2.31->yfinance) (3.4)
+30.8s 29 Requirement already satisfied: urllib3<3,>=1.21.1 in /opt/conda/lib/python3.10/site-packages (from requests>=2.31->yfinance) (1.26.15)
+30.8s 30 Requirement already satisfied: certifi>=2017.4.17 in /opt/conda/lib/python3.10/site-packages (from requests>=2.31->yfinance) (2023.11.17)
+30.9s 31 Downloading yfinance-0.2.37-py2.py3-none-any.whl (72 kB)
+30.9s 32 [?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/73.0 kB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m73.0/73.0 kB[0m [31m4.1 MB/s[0m eta [36m0:00:00[0m
+30.9s 33 [?25hDownloading multitasking-0.0.11-py3-none-any.whl (8.5 kB)
+31.0s 34 Building wheels for collected packages: peewee
+40.0s 35 Building wheel for peewee (pyproject.toml) ... [?25l- \ | / done
+40.0s 36 [?25h  Created wheel for peewee: filename=peewee-3.17.1-cp310-cp310-linux_x86_64.whl size=291650 sha256=8c4ab12aabdc568fe0c385ec993b35ba977966d18c3de333c174ea253f49c03c
+40.0s 37 Stored in directory: /root/.cache/pip/wheels/d7/35/5c/1374782be033462df5f40174d8d879519d64ed8c25a1977554
+40.0s 38 Successfully built peewee
+51.3s 39 Installing collected packages: peewee, multitasking, yfinance
+51.9s 40 Successfully installed multitasking-0.0.11 peewee-3.17.1 yfinance-0.2.37
+74.1s 41 Data Info:
+74.1s 42 <class 'pandas.core.frame.DataFrame'>
+74.1s 43 DatetimeIndex: 1740 entries, 2017-01-03 00:00:00-05:00 to 2023-11-30 00:00:00-05:00
+74.1s 44 Data columns (total 7 columns):
+74.1s 45 #   Column        Non-Null Count  Dtype
+74.1s 46 ---  ------        --------------  -----
+74.1s 47 0   open          1740 non-null   float64
+74.1s 48 1   high          1740 non-null   float64
+74.1s 49 2   low           1740 non-null   float64
+74.1s 50 3   close         1740 non-null   float64
+74.1s 51 4   volume        1740 non-null   int64
+74.1s 52 5   dividends     1740 non-null   float64
+74.1s 53 6   stock splits  1740 non-null   float64
+74.1s 54 dtypes: float64(6), int64(1)
+74.1s 55 memory usage: 108.8 KB
+76.4s 56 Normalized data shape: (33, 5)
+76.5s 57 Number of time steps for test set: 85
+76.5s 58 X shape: (1623, 32, 5)
+76.5s 59 y shape: (1623, 5)
+77.2s 60 Model: "sequential"
+77.2s 61 _________________________________________________________________
+77.2s 62 Layer (type)                Output Shape              Param #
+77.2s 63 =================================================================
+77.2s 64 lstm (LSTM)                 (None, 80)                27520
+77.2s 65 
+77.2s 66 dropout (Dropout)           (None, 80)                0
+77.2s 67 
+77.2s 68 dense (Dense)               (None, 5)                 405
+77.2s 69 
+77.2s 70 =================================================================
+77.2s 71 Total params: 27925 (109.08 KB)
+77.2s 72 Trainable params: 27925 (109.08 KB)
+77.2s 73 Non-trainable params: 0 (0.00 Byte)
+77.2s 74 _________________________________________________________________
+81.4s 75 /opt/conda/lib/python3.10/site-packages/keras/src/engine/training.py:3000: UserWarning:
+81.4s 76 
+81.4s 77 You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+81.4s 78 
+628.2s 79 RMSE Per Column
+628.2s 80 error_open      4.313992e+00
+628.2s 81 error_high      5.488284e+00
+628.2s 82 error_low       5.390995e+00
+628.2s 83 error_close     7.471622e+00
+628.2s 84 error_volume    1.690907e+07
+628.2s 85 dtype: float64
+633.4s 86 X_train shape: (1322, 252, 5)
+633.4s 87 y_train shape: (1322, 21, 5)
+633.4s 88 
+633.4s 89 X_test shape: (146, 252, 5)
+633.4s 90 y_test shape: (146, 21, 5)
+634.3s 91 Model: "sequential_1"
+634.3s 92 _________________________________________________________________
+634.3s 93 Layer (type)                Output Shape              Param #
+634.3s 94 =================================================================
+634.3s 95 lstm_1 (LSTM)               (None, 252, 40)           7360
+634.3s 96 
+634.3s 97 lstm_2 (LSTM)               (None, 20)                4880
+634.3s 98 
+634.3s 99 dense_1 (Dense)             (None, 105)               2205
+634.3s 100 
+634.3s 101 =================================================================
+634.3s 102 Total params: 14445 (56.43 KB)
+634.3s 103 Trainable params: 14445 (56.43 KB)
+634.3s 104 Non-trainable params: 0 (0.00 Byte)
+634.3s 105 _________________________________________________________________
+643.3s 106 /opt/conda/lib/python3.10/site-packages/keras/src/engine/training.py:3000: UserWarning:
+643.3s 107 
+643.3s 108 You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+643.3s 109 
+1020.7s 110 Test Data Shape: (252, 5)
+1022.4s 111 1/1 [==============================] - ETA: 0s1/1 [==============================] - 1s 876ms/step
+1022.4s 112 Forecast shape: (21, 5)
+1028.2s 113 /opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+1028.2s 114 warn(
+1028.2s 115 [NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.
+1028.3s 116 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+1029.0s 117 [NbConvertApp] Writing 1411973 bytes to __notebook__.ipynb
+1031.2s 118 /opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+1031.2s 119 warn(
+1031.2s 120 [NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.
+1031.2s 121 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+1033.0s 122 [NbConvertApp] Writing 1721206 bytes to __results__.html
